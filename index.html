@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <link rel="stylesheet" href="ank.css">
+  <script src="ank1.js"></script>
+  <title>Ипотека опрос</title>
+</head>
+
+<body>
+  <!-- 
+.wrap>.form>.text>p.form-title+p.form-text+p.form-text_sm^form>.form-q1>.q1>(.q1-1>input)*10+.q1-text_left+.q1-text_right^^p.form-text+.form-q2>(.q2-1>input)*6
+-->
+  <main>
+    <div class="wrap">
+      <div class="form">
+        <div class="text" id="text">
+          <p class="form-title">
+            <h2>Уважаемый партнер!</h2>
+          </p>
+          <p class="form-text">Оцените, пожалуйста, насколько Вы удовлетворены качеством проведения ипотечной сделки,
+            выбрав вариант ответа от 0 до 10, где 0 - совершенно не удовлетворены, 10 - полностью удовлетворены.
+          </p><sub>Вопрос 1 из 2</sub>
+        </div>
+        <form action="">
+          <div id="block-1">
+            <div class="form-q1">
+              <div class="q1-block1">
+                <div class="q1_0"><input type="radio" id="q1-0" name="q1"><label class="lab" for="q1-0">0</label>
+                </div>
+                <div class="q1_1"><input type="radio" id="q1-1" name="q1"><label class="lab" for="q1-1">1</label>
+                </div>
+                <div class="q1_2"><input type="radio" id="q1-2" name="q1"><label class="lab" for="q1-2">2</label>
+                </div>
+                <div class="q1_3"><input type="radio" id="q1-3" name="q1"><label class="lab" for="q1-3">3</label>
+                </div>
+                <div class="q1_4"><input type="radio" id="q1-4" name="q1"><label class="lab" for="q1-4">4</label>
+                </div>
+                <div class="q1_5"><input type="radio" id="q1-5" name="q1"><label class="lab" for="q1-5">5</label>
+                </div>
+                <div class="q1_6"><input type="radio" id="q1-6" name="q1"><label class="lab" for="q1-6">6</label>
+                </div>
+                <div class="q1_7"><input type="radio" id="q1-7" name="q1"><label class="lab" for="q1-7">7</label>
+                </div>
+                <div class="q1_8"><input type="radio" id="q1-8" name="q1"><label class="lab" for="q1-8">8</label>
+                </div>
+                <div class="q1_9"><input type="radio" id="q1-9" name="q1"><label class="lab" for="q1-9">9</label>
+                </div>
+                <div class="q1_10"><input type="radio" id="q1-10" name="q1"><label class="lab" for="q1-10">10</label>
+                </div>
+              </div>
+              <div class="q1-block2">
+                <div class="q1-text_left">
+                  <p>Совершенно не удовлетворен</p>
+                </div>
+                <div class="q1-text_right">
+                  <p>Полностью удовлетворен</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-q2">
+              <p class="form-text">
+                <h3>Что Вам нравится в Абсолют Банке?</h3>
+              </p>
+              <div class="q2-1"><input type="checkbox" id="q2-1" name="q2"><label for="q2-1">Качество обслуживания
+                  сотрудниками</label></div>
+              <div class="q2-2"><input type="checkbox" id="q2-2" name="q2"><label for="q2-2">Скорость принятия решения
+                </label></div>
+              <div class="q2-3"><input type="checkbox" id="q2-3" name="q2"><label for="q2-3">Скорость выхода на сделку
+                </label></div>
+              <div class="q2-4"><input type="checkbox" id="q2-4" name="q2"><label for="q2-4">Процесс оформления сделки
+                </label></div>
+              <div class="q2-5"><input type="checkbox" id="q2-5" name="q2"><label for="q2-5">Комфортность пребывания в
+                  отделении
+                </label></div>
+              <div class="q2-6"><input type="checkbox" id="q2-6" name="q2"><label for="q2-6">Другое (свободный
+                  комментарий)</label></div>
+              <div class="q2-7"><textarea rows="10" cols="37" name="q2"></textarea></div>
+            </div>
+
+
+            <div class="form-q3">
+              <p class="form-text">
+                <h3>Что, по Вашему мнению, необходимо улучшить в Абсолют Банке?
+                </h3>
+              </p>
+              <div class="q3-1"><input type="checkbox" id="q3-1" name="q3"><label for="q3-1">Качество обслуживания
+                  сотрудниками
+                </label></div>
+              <div class="q3-2"><input type="checkbox" id="q3-2" name="q3"><label for="q3-2">Скорость принятия решения
+
+                </label></div>
+              <div class="q3-3"><input type="checkbox" id="q3-3" name="q3"><label for="q3-3">Скорость выхода на сделку
+                </label></div>
+              <div class="q3-4"><input type="checkbox" id="q3-4" name="q3"><label for="q3-4">Процесс оформления сделки
+
+                </label></div>
+              <div class="q3-5"><input type="checkbox" id="q3-5" name="q3"><label for="q3-5">Комфортность пребывания в
+                  отделении
+                </label></div>
+              <div class="q3-6"><input type="checkbox" id="q3-6" name="q3"><label for="q3-6">Другое (свободный
+                  комментарий)</label></div>
+              <div class="q3-7"><textarea rows="10" cols="37" name="q3"></textarea></div>
+            </div>
+
+
+            <div class="form-q4">
+              <p class="form-text">
+                <h3>С какими сложностями Вы столкнулись при взаимодействии c Абсолют Банком?</h3>
+              </p>
+              <div class="q4-1"><input type="checkbox" id="q4-1" name="q4"><label for="q4-1">Некачественное обслуживание
+                  сотрудниками
+                </label></div>
+              <div class="q4-2"><input type="checkbox" id="q4-2" name="q4"><label for="q4-2">Скорость принятия решения
+                </label></div>
+              <div class="q4-3"><input type="checkbox" id="q4-3" name="q4"><label for="q4-3">Скорость выхода на сделку
+                </label></div>
+              <div class="q2-4"><input type="checkbox" id="q4-4" name="q4"><label for="q4-4">Непонятный процесс
+                  оформления сделки
+                </label></div>
+              <div class="q4-5"><input type="checkbox" id="q4-5" name="q4"><label for="q4-5">Некомфортные условия
+                  пребывания в отделении
+                </label></div>
+              <div class="q4-6"><input type="checkbox" id="q4-6" name="q4"><label for="q4-6">Другое (свободный
+                  комментарий)</label></div>
+              <div class="q4-7"><textarea rows="10" cols="37" name="q4"></textarea></div>
+            </div>
+
+
+
+            <div class="form-sub1">
+              <div class="button">Далее
+            </div>
+          </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div id="block-2">
+
+            <div class="text">
+
+              <p class="form-text">Основываясь на опыте взаимодейсвия с Банком в целом, насколько вероятно что вы
+                порекомендуете наш Банк для получения ипотеки.</p>
+              <p class="form-text_sm">Выберите, пожалуйста, вариант от 0 до 10, где 0 - абсолютно не готов
+                рекомендовать, 10 - абсолютно готов рекомендовать.</p><sub>Вопрос 2 из 2</sub>
+            </div>
+
+            <div class="form-q5">
+              <div class="q5-block5">
+                <div class="q5_0" id='q5_0'><input type="radio" id="q5-0" name="q5"><label class="lab" for="q5-0">0</label>
+                </div>
+                <div class="q5_1"><input type="radio" id="q5-1" name="q5"><label class="lab" for="q5-1">1</label>
+                </div>
+                <div class="q5_2"><input type="radio" id="q5-2" name="q5"><label class="lab" for="q5-2">2</label>
+                </div>
+                <div class="q5_3"><input type="radio" id="q5-3" name="q5"><label class="lab" for="q5-3">3</label>
+                </div>
+                <div class="q5_4"><input type="radio" id="q5-4" name="q5"><label class="lab" for="q5-4">4</label>
+                </div>
+                <div class="q5_5"><input type="radio" id="q5-5" name="q5"><label class="lab" for="q5-5">5</label>
+                </div>
+                <div class="q5_6"><input type="radio" id="q5-6" name="q5"><label class="lab" for="q5-6">6</label>
+                </div>
+                <div class="q5_7"><input type="radio" id="q5-7" name="q5"><label class="lab" for="q5-7">7</label>
+                </div>
+                <div class="q5_8"><input type="radio" id="q5-8" name="q5"><label class="lab" for="q5-8">8</label>
+                </div>
+                <div class="q5_9"><input type="radio" id="q5-9" name="q5"><label class="lab" for="q5-9">9</label>
+                </div>
+                <div class="q5_10"><input type="radio" id="q5-10" name="q5"><label class="lab" for="q5-10">10</label>
+                </div>
+              </div>
+              <div class="q5-block6">
+                <div class="q1-text_left">
+                  <p>Совершенно не удовлетворен</p>
+                </div>
+                <div class="q1-text_right">
+                  <p>Полностью удовлетворен</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-q6">
+              <p class="form-text">
+                <h3>Что вам понравилось при проведении сделки?</h3>
+              </p>
+              <div class="q6-1"><input type="checkbox" id="q6-1" name="q6"><label for="q6-1">Быстрое
+                  обслуживание</label></div>
+              <div class="q6-2"><input type="checkbox" id="q6-2" name="q6"><label for="q6-2">Компетентность
+                  сотрудников</label></div>
+              <div class="q6-3"><input type="checkbox" id="q6-3" name="q6"><label for="q6-3">Вежливость
+                  сотрудников</label></div>
+              <div class="q6-4"><input type="checkbox" id="q6-4" name="q6"><label for="q6-4">Комфортное
+                  пребывание в
+                  отделении</label></div>
+              <div class="q6-5"><input type="checkbox" id="q6-5" name="q6"><label for="q6-5">Качество и
+                  скорость решения вопросов</label></div>
+              <div class="q6-6"><input type="checkbox" id="q6-6" name="q6"><label for="q6-6">Другое (свободный
+                  комментарий)</label></div>
+              <div class="q6-7"><textarea rows="10" cols="37" name="q6"></textarea></div>
+            </div>
+
+
+            <div class="form-q7">
+              <p class="form-text">
+                <h3>Что, по Вашему мнению, нам необходимо улучшить?</h3>
+              </p>
+              <div class="q7-1"><input type="checkbox" id="q7-1" name="q7"><label for="q7-1">Скорость обслуживания
+                </label></div>
+              <div class="q7-2"><input type="checkbox" id="q7-2" name="q7"><label for="q7-2">Уровень знаний сотрудников
+                  по продуктам (компетентность персонала)
+                </label></div>
+              <div class="q7-3"><input type="checkbox" id="q7-3" name="q7"><label for="q7-3">Отношение сотрудника к
+                  Клиентам </label></div>
+              <div class="q7-4"><input type="checkbox" id="q7-4" name="q7"><label for="q7-4">Повысить комфорт пребывания
+                  в отделении
+                </label></div>
+              <div class="q7-5"><input type="checkbox" id="q7-5" name="q7"><label for="q7-5">Качество и скорость решения
+                  вопросов
+                </label></div>
+              <div class="q7-6"><input type="checkbox" id="q7-6" name="q7"><label for="q7-6">Другое (свободный
+                  комментарий)</label></div>
+              <div class="q7-7"><textarea rows="10" cols="37" name="q3"></textarea></div>
+            </div>
+
+
+            <div class="form-q8">
+              <p class="form-text">
+                <h3>С какими сложностями Вы столкнулись при проведении сделки? </h3>
+              </p>
+              <div class="q8-1"><input type="checkbox" id="q8-1" name="q8"><label for="q8-1">Длительное ожидание
+                </label></div>
+              <div class="q8-2"><input type="checkbox" id="q8-2" name="q8"><label for="q8-2">Некорректная консультация
+                </label></div>
+              <div class="q8-3"><input type="checkbox" id="q8-3" name="q8"><label for="q8-3">Недоброжелательность
+                  сотрудников
+                </label></div>
+              <div class="q8-4"><input type="checkbox" id="q8-4" name="q8"><label for="q8-4">Некомфортное пребывание в
+                  отделении
+                </label></div>
+              <div class="q8-5"><input type="checkbox" id="q8-5" name="q8"><label for="q8-5">Качество и скорость решения
+                  вопросов
+                </label></div>
+              <div class="q8-6"><input type="checkbox" id="q8-6" name="q8"><label for="q8-6">Другое (свободный
+                  комментарий)</label></div>
+              <div class="q8-7"><textarea rows="10" cols="37" name="q8"></textarea></div>
+            </div>
+
+            <input type="text" id="q9" name="9" style="display: block;">
+
+
+            <div class="form-sub2"><button type="submit" class="button">Отправить</button></div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+  </main>
+</body>
+
+</html>
