@@ -10,10 +10,8 @@ $(document).ready(function () {
       $('#block-2').fadeIn();
       $('.q6-7,.q7-7,.q8-7').hide();
 
-
       let url = window.location.search.slice(1);
       $('#9').attr('value', url);
-
 
       $(lb).click(function () {
         $(lb).css({
@@ -79,11 +77,6 @@ $(document).ready(function () {
       return false;
     });
 
-
-
-
- 
-
   $(bl).click(function () {
     $(bl).css({
       'backgroundColor': '#fff',
@@ -105,8 +98,6 @@ $(document).ready(function () {
 
     var la = $(this).find('.lab');
     var num = parseInt(la.html());
-
-    /*var la = parseInt($('div[class~="active"]+input > label').html());*/
 
     switch (true) {
       case (num <= 6):
