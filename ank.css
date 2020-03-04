@@ -265,7 +265,7 @@ div[class*=q5_]:not(:last-child) {
 }
 
 
-div[class^="q2-"]:not(.q3-7) {
+div[class^="q2-"]:not(.q2-7) {
   position: relative;
   margin-bottom: 5%;
   margin-left: 40px;
@@ -286,7 +286,7 @@ div[class^="q4-"]:not(.q4-7) {
 }
 
 
-div[class^="q6-"]:not(.q7-7) {
+div[class^="q6-"]:not(.q6-7) {
   position: relative;
   margin-bottom: 5%;
   margin-left: 40px;
@@ -300,7 +300,7 @@ div[class^="q7-"]:not(.q7-7) {
 
 }
 
-div[class^="q8-"]:not(.q4-7) {
+div[class^="q8-"]:not(.q8-7) {
   position: relative;
   margin-bottom: 5%;
   margin-left: 40px;
